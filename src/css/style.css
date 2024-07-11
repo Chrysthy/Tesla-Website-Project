@@ -1,10 +1,14 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+
 .logo {
     filter: brightness(100);
     position: fixed;
     width: 120px;
 }
 
-.container {
+.item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,9 +16,12 @@
     position: relative;
     height: 100vh;
     width: 100vw;
+
+    scroll-snap-align: start;
 }
 
-video {
+video,
+.img-tesla {
     width: 100%;
     height: 100%;
 
@@ -48,24 +55,23 @@ h1 {
 
 }
 
-.order {
-    background-color: rgba(34, 34, 34, 0.8);
-    color: #fff;
+.order,
+.test-drive {
     padding: 7px 80px;
 
     border-radius: 5px;
     border: none;
 
+    cursor: pointer;
+
+}
+
+.order {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: #fff;
 }
 
 .test-drive {
     color: #000;
     background-color: #fff;
-
-    padding: 7px 80px;
-
-    border-radius: 5px;
-    border: none;
 }
-
-.text-info {}
