@@ -56,7 +56,7 @@ h1 {
 }
 
 .order,
-.test-drive {
+.test-drive, .close {
     padding: 7px 80px;
 
     border-radius: 5px;
@@ -66,7 +66,7 @@ h1 {
 
 }
 
-.order {
+.order, .close {
     background-color: rgba(34, 34, 34, 0.8);
     color: #fff;
 }
@@ -74,4 +74,15 @@ h1 {
 .test-drive {
     color: #000;
     background-color: #fff;
+}
+
+.form {
+    position: fixed;
+    top: 40px;
+    width: 600px;
+    height: 100%;
+    z-index: 3;
+
+    left: -50%;
+
 }
