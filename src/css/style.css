@@ -84,5 +84,5 @@ h1 {
     z-index: 3;
 
     left: -50%;
-
+    transition: 1.5s;
 }

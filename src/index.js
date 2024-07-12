@@ -1,5 +1,9 @@
 let form = document.querySelector('.form')
 
 function showForm() {
-    form.computedStyleMap.lrft = "50%"
+    form.style.left = "50%"
+}
+
+function closeForm() {
+    form.style.left = "-50%"
 }
