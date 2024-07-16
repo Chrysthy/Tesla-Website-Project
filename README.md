@@ -12,7 +12,7 @@
 
 - HTML;
 - CSS;
-- JavaScript
+- JavaScript.
 
 <br>
 <hr>
