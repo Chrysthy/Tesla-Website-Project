@@ -6,6 +6,13 @@
 
 <img src="src/video/tesla-project.gif" alt="Video do Projeto">
 
+<br>
+
+## 🛠️ Tools Utilized:
+
+- HTML;
+- CSS;
+- JavaScript
 
 <br>
 <hr>
